@@ -1,0 +1,32 @@
+.text {
+	font-size: 21px;
+	margin: 70px 230px;
+	line-height: 30px;
+	text-align: center;
+	display: flex;
+}
+
+#mainText {
+	display: inline-block;
+}
+
+input {
+	width: 500px;
+	height: 30px;
+	margin-top: 50px;
+	text-align: center;
+	display: flex;
+	margin:0 auto;
+}
+
+.highlight {
+	background-color: lightgreen;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+.mistake {
+	color: lightpink;
+	display: inline-block;
+	transition: all 0.3s;
+}
